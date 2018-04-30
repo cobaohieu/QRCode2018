@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/scan_btn"
+            android:text="@string/scan_btn"
+            android:background="@color/colorGreenDark"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_width="220dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="176dp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="429dp"/>
+
+        <Button
+            android:id="@+id/scan_btn2"
+            android:layout_width="220dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="176dp"
+            android:background="@color/colorGreenDark"
+            android:text="@string/scan_btn2"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="429dp" />
+
+        <Button
+            android:id="@+id/create_btn"
+            android:text="@string/gen_btn"
+            android:background="@color/colorGreenDark"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_width="220dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="68dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="429dp"  />
+
+        <Button
+            android:id="@+id/about_btn"
+            android:layout_width="220dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="68dp"
+            android:background="@color/colorGreenDark"
+            android:text="@string/about_btn"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="429dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
