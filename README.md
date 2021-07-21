@@ -1,3 +1,3 @@
-![Screenshot](/Images/img_1.png)
+![Screenshot](/image_demo/img_1.jpg)
 
-![Screenshot](/Images/img_2.png)
+![Screenshot](/image_demo/img_2.jpg)
